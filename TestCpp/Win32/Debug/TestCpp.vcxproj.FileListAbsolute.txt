@@ -1,0 +1,2 @@
+D:\Programowanie\Testing\TestCpp\Win32\Debug\TestCpp.exe
+D:\Programowanie\Testing\TestCpp\Win32\Debug\TestCpp.pdb

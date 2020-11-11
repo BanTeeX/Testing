@@ -1,0 +1,3 @@
+﻿  List.cpp
+D:\Programowanie\Testing\TestCpp\List.cpp(58,3): error C2760: syntax error: unexpected token '}', expected ';'
+D:\Programowanie\Testing\TestCpp\List.cpp(198): message : see reference to class template instantiation 'DoubleLinkedList<T>' being compiled
