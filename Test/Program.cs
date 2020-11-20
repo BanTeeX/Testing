@@ -4,7 +4,7 @@ namespace Test
 {
 	class Program
 	{
-		static void Main()
+		static void Main(string[] args)
 		{
 			Console.WriteLine("Hello World!");
 			int[] array1;
