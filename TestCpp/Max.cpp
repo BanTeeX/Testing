@@ -2,7 +2,7 @@
 
 using namespace std;
 
-/*int main()
+void MaxProgram()
 {
 	int numbers[100];
 	int amountOfNumber = 0;
@@ -29,4 +29,4 @@ using namespace std;
 	{
 		cout << "No numbers entered" << endl;
 	}
-}*/
+}

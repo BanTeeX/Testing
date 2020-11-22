@@ -196,7 +196,7 @@ void PrintArray(const DoubleLinkedList<T>& list) noexcept //wyœwietla listê
 	}
 }
 
-int main()
+void DoubleLinkedListProgram()
 {
 	DoubleLinkedList<int> list;
 

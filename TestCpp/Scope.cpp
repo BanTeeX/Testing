@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 bool TryAdd(long long int a, long long int b, long long int& result)
@@ -15,7 +16,7 @@ bool TryAdd(long long int a, long long int b, long long int& result)
     }
 }
 
-/*int main()
+void ScopeProgram()
 {
     long long int a;
     long long int b;
@@ -32,4 +33,4 @@ bool TryAdd(long long int a, long long int b, long long int& result)
     {
         cout << "Dane s¹ za du¿e" << endl;
     }
-}*/
+}
