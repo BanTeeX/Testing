@@ -152,6 +152,7 @@
     <ClCompile Include="IsPrime.cpp" />
     <ClCompile Include="Max.cpp" />
     <ClCompile Include="Scope.cpp" />
+    <ClCompile Include="Test.cpp" />
     <ClCompile Include="Wsk.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
