@@ -151,6 +151,7 @@
     <ClCompile Include="Fibo.cpp" />
     <ClCompile Include="IsPrime.cpp" />
     <ClCompile Include="Max.cpp" />
+    <ClCompile Include="Random.cpp" />
     <ClCompile Include="Scope.cpp" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="Wsk.cpp" />

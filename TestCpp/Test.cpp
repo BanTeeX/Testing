@@ -1,28 +1,29 @@
 #include <iostream>
-#include <Windows.h>
-#undef max(a,b)
 
 using namespace std;
 
-int main()
+struct samochod
 {
-	int input;
-	while (true)
+	string marka;
+	string model;
+	int rok = 0;
+
+	samochod(string marka, string model, int rok) : marka(marka), model(model), rok(rok) { }
+
+	void Print()
 	{
-		cin >> input;
-		switch (input)
-		{
-		case 1:
-			cout << "case1" << endl;
-			break;
-		case 2:
-			cout << "case2" << endl;
-			break;
-		default:
-			cout << "default" << endl;
-			cin.clear();
-			cin.ignore(numeric_limits<streamsize>::max(), '\n');
-			break;
-		}
+		cout << "Marka: " << marka << ", model: " << model << ", rok: " << rok << ";" << endl;
 	}
-}
+};
+
+//int main()
+//{
+//	samochod moj("Audi", "A7", 2015);
+//	samochod anny("BMW", "M5", 2017);
+//
+//	samochod moj = samochod("Audi", "A7", 2015);
+//	samochod anny = samochod("BMW", "M5", 2017);
+//
+//	moj.Print();
+//	anny.Print();
+//}
